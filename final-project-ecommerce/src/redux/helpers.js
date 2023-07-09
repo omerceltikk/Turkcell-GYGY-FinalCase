@@ -1,20 +1,20 @@
 //  get functions
 export const getUserData = async () => {
-  const data = fetch("http://localhost:3006/users").then((response) =>
+  const data = fetch("https://my-json-server.typicode.com/omerceltikk/Turkcell-GYGY-FinalCase/users").then((response) =>
     response.json()
   );
   return data;
 };
 
 export const getCardData = async () => {
-  const data = fetch("http://localhost:3007/users")
+  const data = fetch("https://my-json-server.typicode.com/omerceltikk/Turkcell-GYGY-FinalCase/cards")
       .then((response) => response.json())
       return data;
   
 } 
 
 export const getData = async () => {
-  const data = fetch("http://localhost:3005/products")
+  const data = fetch("https://my-json-server.typicode.com/omerceltikk/Turkcell-GYGY-FinalCase/products")
       .then((response) => response.json())
       return data;
 } 
@@ -22,7 +22,7 @@ export const getData = async () => {
 // sign up 
 export const addNewUserWithSignUp = async (data) => {
   return new Promise((resolve, reject) => {
-    fetch("http://localhost:3006/users", {
+    fetch("https://my-json-server.typicode.com/omerceltikk/Turkcell-GYGY-FinalCase/users", {
       method: "POST",
       body: JSON.stringify({
         id: data.id,
@@ -47,7 +47,7 @@ export const addNewUserWithSignUp = async (data) => {
 // isloggedin
 export const userIsLoggedInStatus = async (data) => {
   return new Promise((resolve, reject) => {
-    fetch(`http://localhost:3006/users/${data.id} `, {
+    fetch(`https://my-json-server.typicode.com/omerceltikk/Turkcell-GYGY-FinalCase/users/${data.id} `, {
       method: "PUT",
       body: JSON.stringify({
         id: data.id,
@@ -73,7 +73,7 @@ export const userIsLoggedInStatus = async (data) => {
 // delete product -only admin
 export const deleteProductAdmin = async (id) => {
   return new Promise((resolve, reject) => {
-    fetch(`http://localhost:3005/products/${id}`, {
+    fetch(`https://my-json-server.typicode.com/omerceltikk/Turkcell-GYGY-FinalCase/products/${id}`, {
       method: "DELETE",
     })
       .then((response) => response.json())
@@ -84,7 +84,7 @@ export const deleteProductAdmin = async (id) => {
 //  edit product 
 export const editProductDataAdmin = async (data) => {
   return new Promise((resolve, reject) => {
-    fetch(`http://localhost:3005/products/${data.id} `, {
+    fetch(`https://my-json-server.typicode.com/omerceltikk/Turkcell-GYGY-FinalCase/products/${data.id} `, {
       method: "PUT",
       body: JSON.stringify({
         id: data.id,
@@ -111,7 +111,7 @@ export const editProductDataAdmin = async (data) => {
 //  add product
 export const addNewProductAdmin = async (data) => {
   return new Promise((resolve, reject) => {
-    fetch("http://localhost:3005/products", {
+    fetch("https://my-json-server.typicode.com/omerceltikk/Turkcell-GYGY-FinalCase/products", {
       method: "POST",
       body: JSON.stringify({
         id: data.id,
@@ -138,7 +138,7 @@ export const addNewProductAdmin = async (data) => {
 // add card to new product
 export const postProductToCard = async (data) => {
   return new Promise((resolve, reject) => {
-    fetch(`http://localhost:3007/users`, {
+    fetch(`https://my-json-server.typicode.com/omerceltikk/Turkcell-GYGY-FinalCase/cards`, {
       method: "POST",
       body: JSON.stringify({
         "id": data.id,
@@ -158,7 +158,7 @@ export const postProductToCard = async (data) => {
 // update card product from card
 export const refreshProductToCard = async (data) => {
   return new Promise((resolve, reject) => {
-    fetch(`http://localhost:3007/users/${data.id}`, {
+    fetch(`https://my-json-server.typicode.com/omerceltikk/Turkcell-GYGY-FinalCase/cards/${data.id}`, {
       method: "PUT",
       body: JSON.stringify({
         "id": data.id,
@@ -178,7 +178,7 @@ export const refreshProductToCard = async (data) => {
 
 export const completeBuyFromProductDB = async (data) => {
   return new Promise((resolve, reject) => {
-    fetch(`http://localhost:3005/products/${data.id}`, {
+    fetch(`https://my-json-server.typicode.com/omerceltikk/Turkcell-GYGY-FinalCase/products/${data.id}`, {
       method: "PUT",
       body: JSON.stringify({
         id: data.id,
@@ -205,7 +205,7 @@ export const completeBuyFromProductDB = async (data) => {
 // delete product from card
 export const completeBuyActions= async (id) => {
   return new Promise((resolve, reject) => {
-    fetch(`http://localhost:3007/users/${id}`, {
+    fetch(`https://my-json-server.typicode.com/omerceltikk/Turkcell-GYGY-FinalCase/cards/${id}`, {
       method: "DELETE",
     })
       .then((response) => response.json())
