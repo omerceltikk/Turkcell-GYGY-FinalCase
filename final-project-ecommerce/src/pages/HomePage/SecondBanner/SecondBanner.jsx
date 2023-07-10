@@ -18,22 +18,22 @@ const SecondBanner = () => {
         <div className=" col-12 pb-36 mb-1">
           <div className='row align-items-center'>
             <div className='col-2'>
-              <img src="../../../../../images/image-4.png" className='mx-auto d-flex' alt="" />
+              <img src="../../../../images/image-4.png" className='mx-auto d-flex' alt="" />
             </div>
             <div className='col-2'>
-              <img src="../../../../../images/image 6.png" className='mx-auto d-flex' alt="" />
+              <img src="../../../../images/image 6.png" className='mx-auto d-flex' alt="" />
             </div>
             <div className='col-2'>
-              <img src="../../../../../images/image 7.png" className='mx-auto d-flex' alt="" />
+              <img src="../../../../images/image 7.png" className='mx-auto d-flex' alt="" />
             </div>
             <div className='col-2'>
-              <img src="../../../../../images/image 8.png" className='mx-auto d-flex' alt="" />
+              <img src="../../../../images/image 8.png" className='mx-auto d-flex' alt="" />
             </div>
             <div className='col-2'>
-              <img src="../../../../../images/image 9.png" className='mx-auto d-flex' alt="" />
+              <img src="../../../../images/image 9.png" className='mx-auto d-flex' alt="" />
             </div>
             <div className='col-2'>
-              <img src="../../../../../images/image 10.png" className='mx-auto d-flex' alt="" />
+              <img src="../../../../images/image 10.png" className='mx-auto d-flex' alt="" />
             </div>
           </div>
         </div>
@@ -57,7 +57,7 @@ const SecondBanner = () => {
         </div>
         <div className={`col-12 col-lg-6 ${styles.imgArea}`}>
           <div className='d-flex justify-content-center'>
-            <img src="../../../../../images/bannerpng.png" alt="" className={` img-fluid ${styles}`} />
+            <img src="../../../../images/bannerpng.png" alt="" className={` img-fluid ${styles}`} />
           </div>
         </div>
       </div>

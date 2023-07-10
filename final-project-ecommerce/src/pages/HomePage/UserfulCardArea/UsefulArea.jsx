@@ -18,7 +18,7 @@ const UsefulArea = () => {
       <div className="row gy-4 pb-6">
         <div className="col-12 col-lg-4">
           <div className="card border-0 shadow p-2 rounded-3 h-100">
-            <img src="../../../../../images/cardimg1.jpg" className="card-img-top img-fluid rounded-3" alt="..." />
+            <img src="../../../../images/cardimg1.jpg" className="card-img-top img-fluid rounded-3" alt="..." />
             <div className="card-body">
               <span className={`rounded-pill text-white ${style.usefulCardText} `}>Knowledge</span>
               <h5 className="card-title fs-6 fw-semibold mt-2">What is a Pomeranian? How to Identify Pomeranian Dogs</h5>
@@ -28,7 +28,7 @@ const UsefulArea = () => {
         </div>
         <div className="col-12 col-lg-4">
           <div className="card border-0 shadow p-2 rounded-3 h-100">
-            <img src="../../../../../images/cardimg3.jpg" className="card-img-top img-fluid rounded-3" alt="..." />
+            <img src="../../../../images/cardimg3.jpg" className="card-img-top img-fluid rounded-3" alt="..." />
             <div className="card-body">
               <span className={`rounded-pill text-white ${style.usefulCardText} `}>Knowledge</span>
               <h5 className="card-title fs-6 fw-semibold mt-2">Why Dogs Bite and Destroy Furniture and How to Prevent It Effectively</h5>
@@ -38,7 +38,7 @@ const UsefulArea = () => {
         </div>
         <div className="col-12 col-lg-4">
           <div className="card border-0 shadow p-2 rounded-3 h-100">
-            <img src="../../../../../images/cardimg2.jpg" className="card-img-top img-fluid rounded-3" alt="..." />
+            <img src="../../../../images/cardimg2.jpg" className="card-img-top img-fluid rounded-3" alt="..." />
             <div className="card-body">
               <span className={`rounded-pill text-white ${style.usefulCardText} `}>Knowledge</span>
               <h5 className="card-title fs-6 fw-semibold mt-2">Dog Diet You Need To Know</h5>

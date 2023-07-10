@@ -22,7 +22,7 @@ const Header = () => {
           </div>
           <div className="col-12 col-lg-7 position-relative d-flex justify-content-center">
             <div className={`${style.imageBox} z-1`}>
-            <img src="../../../../../images/png1.png" className={`mt-100 ${style.imageContent}`} alt="" />
+            <img src="../../../../images/png1.png" className={`mt-100 ${style.imageContent}`} alt="" />
             </div>
           </div>
         </div>
