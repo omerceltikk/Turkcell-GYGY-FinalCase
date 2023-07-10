@@ -7,7 +7,7 @@ const FirstBanner = () => {
       <div className={`row flex-column-reverse position-relative flex-lg-row bg-primary ${styles.bannerArea} overflow-hidden`}>
         <div className={`col-12 col-lg-6 ${styles.imgArea}`}>
           <div className='d-flex justify-content-center'>
-            <img src="https://github.com/omerceltikk/Turkcell-GYGY-FinalCase/tree/main/final-project-ecommerce/images/png2.png" alt="" className={`mt-36 ${styles}`} />
+            <img src="https://github.com/omerceltikk/Turkcell-GYGY-FinalCase/blob/main/final-project-ecommerce/images/png2.png" alt="" className={`mt-36 ${styles}`} />
           </div>
         </div>
         <div className={`col-12 col-lg-6 position-relative text-center text-lg-end pt-2 pe-6`}>

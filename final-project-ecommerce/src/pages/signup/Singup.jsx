@@ -38,7 +38,7 @@ const Singup = () => {
       email: "",
       password: "",
       confirmPassword: "",
-      image:"https://github.com/omerceltikk/Turkcell-GYGY-FinalCase/tree/main/final-project-ecommerce/images/avatar.png",
+      image:"https://github.com/omerceltikk/Turkcell-GYGY-FinalCase/blob/main/final-project-ecommerce/images/avatar.png",
       id:Date.now(),
       isAdmin: false,
       isLoggedIn:true
