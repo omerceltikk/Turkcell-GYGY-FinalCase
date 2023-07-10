@@ -6,7 +6,7 @@ const NotFound = () => {
       <div className="container pt-120">
         <div className='d-flex justify-content-center py-120'>
           <h5 className='display-2 fw-semibold'>
-            <img src="/images/notfound404.png" alt="" />
+            <img src="../../images/notfound404.png" alt="" />
           </h5>
         </div>
       </div>

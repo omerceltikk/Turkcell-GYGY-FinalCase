@@ -78,7 +78,7 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <Link to="/" className="navbar-brand mx-auto ">
-            <img src="/images/Frame.svg" alt="" />
+            <img src="../../images/Frame.svg" alt="" />
           </Link>
           <div className="collapse navbar-collapse" id="navbarArea">
             <div
