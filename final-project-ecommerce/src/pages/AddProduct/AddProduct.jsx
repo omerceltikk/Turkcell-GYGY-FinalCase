@@ -28,7 +28,7 @@ let count = Math.floor(Math.random() * 100000000);
       price: "",
       description: "",
       category: "",
-      image: "../../../images/base.jpg",
+      image: "https://github.com/omerceltikk/Turkcell-GYGY-FinalCase/tree/main/final-project-ecommerce/images/base.jpg",
       rate: "",
       count: "",
 
