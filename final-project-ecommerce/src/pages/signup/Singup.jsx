@@ -38,7 +38,7 @@ const Singup = () => {
       email: "",
       password: "",
       confirmPassword: "",
-      image:"../../../../final-project-ecommerce/images/avatar.png",
+      image:"/final-project-ecommerce/images/avatar.png",
       id:Date.now(),
       isAdmin: false,
       isLoggedIn:true
