@@ -43,7 +43,7 @@ const Footer = () => {
               <a href="" className='text-decoration-none display-10 '>Privacy Policy</a>
             </div>
             <div className="col-12 col-lg-4 d-flex justify-content-center">
-              <img src="images/Frame.svg" className='order-1 mb-4 mb-lg-0 order-lg-2' alt="" />
+              <img src="/images/Frame.svg" className='order-1 mb-4 mb-lg-0 order-lg-2' alt="" />
             </div>
             <div className="col-12 col-lg-4 mt-2 mt-lg-0  order-3 order-lg-3 ">
             <p className='display-10 text-center mb-lg-0 text-lg-end'>© 2022 Monito. All rights reserved.

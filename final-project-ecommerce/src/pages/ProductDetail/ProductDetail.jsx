@@ -143,13 +143,13 @@ const ProductDetail = () => {
                     <div className="bg-secondary rounded-2 mt-3 px-14 py-2">
                       <div className="row">
                         <div className="col-12 col-lg-6 d-flex align-items-center">
-                          <img src="images/Frame1.svg" alt="" />
+                          <img src="/images/Frame1.svg" alt="" />
                           <div className="display-14 text-primary fw-semibold ms-2">
                             100% health guarantee for users
                           </div>
                         </div>
                         <div className="col-12 col-lg-6 d-flex align-items-center text-start">
-                          <img src="images/Frame2.png" alt="" />
+                          <img src="/images/Frame2.png" alt="" />
                           <div className="display-14 text-primary fw-semibold ms-2">
                             100% guarantee of products
                           </div>
@@ -158,7 +158,7 @@ const ProductDetail = () => {
                     </div>
                     <div className="col-12 text-start d-none d-lg-flex gap-3  align-items-center mt-4">
                       <div className="d-flex align-items-center">
-                        <img src="images/Share_Android.png" alt="" />
+                        <img src="/images/Share_Android.png" alt="" />
                         <p className="m-0 p-0 ms-1 text-primary">Share:</p>
                       </div>
                       <a href="">
@@ -248,7 +248,7 @@ const ProductDetail = () => {
                         className={`btn btn-outline-primary mt-3 ms-3 rounded-pill px-175 py-2`}
                       >
                         <img
-                          src="images/Chat_Dots.png"
+                          src="/images/Chat_Dots.png"
                           alt=""
                           className="me-2"
                         />
