@@ -6,7 +6,7 @@ const ProductBanner = () => {
       <div className={`row flex-column-reverse position-relative flex-lg-row bg-secondary ${styles.bannerArea} overflow-hidden`}>
         <div className={`col-12 col-lg-7 align-self-end`}>
           <div className='d-flex justify-content-center'>
-          <img src="../../images/png3.png" className={`mt-0 mt-lg-36 ps-xxl-100 ${styles.imgContent}`} />
+          <img src="images/png3.png" className={`mt-0 mt-lg-36 ps-xxl-100 ${styles.imgContent}`} />
           </div>
         </div>
         <div className={`col-12 col-lg-5 position-relative text-lg-end text-lg-end ps-3 pe-lg-6 pb-lg-6`}>
