@@ -28,7 +28,7 @@ let count = Math.floor(Math.random() * 100000000);
       price: "",
       description: "",
       category: "",
-      image: "/final-project-ecommerce/images/base.jpg",
+      image: "../../../../images/base.jpg",
       rate: "",
       count: "",
 
